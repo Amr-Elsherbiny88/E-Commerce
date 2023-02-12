@@ -79,7 +79,7 @@
 
 /* clothes start */
 .clothes{
-  background-color: rgb(245, 245, 245);
+  
  
   
 }
@@ -98,8 +98,6 @@
 
 .card{
   width: 350px;
-  margin-left: 50px;
-  
- 
+  text-align: center;
 }
 /* clothes end */
