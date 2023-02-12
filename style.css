@@ -68,6 +68,13 @@
   }
   /* loading page end */
 
+  /* dark mood start */
+  .mood-text{
+  
+    text-decoration: underline purple;
+    text-align: center;
+  }
+  /* dark mood end */
 
 
   /* intro start */
@@ -97,3 +104,6 @@
   text-align: center;
 }
 /* clothes end */
+
+
+
