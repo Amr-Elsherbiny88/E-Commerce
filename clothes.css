@@ -203,24 +203,24 @@ li h4{
   
 
   strong{
-    scale: 0.5;
+    scale: 0.2;
     position: absolute;
     top: 46%;
     right: 30px;
   }
 
   small{
-    scale: 0.5;
+    scale: 0.2;
     position: absolute;
     top: 58%;
     right: 45px;
-    scale: 0.5;
+    
   }
 
   h4 {
     top: 60%;
     margin-left: -15px;
-    scale: 0.5;
+    scale: 0.2;
    
   }
 
