@@ -9,6 +9,19 @@
 
 
 
+::-webkit-scrollbar{
+    width: fit-content;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255);
+  }
+  
+
 
 
 /* loading page start */
@@ -51,17 +64,20 @@
   }
   /* loading page end */
 
+  /* dark mood */
   .mood-text{
   
     text-decoration: underline purple;
     text-align: center;
   }
 
+  /* head title */
   .clothes-text{
     color: rgb(0, 0, 0);
     text-decoration: underline purple;
     text-align: center;
   }  
+
 
 
 main{
@@ -78,27 +94,9 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header ul li{
-    list-style: none;
-    padding: 20px;
-    margin: 10px;
-    float: left;
-    font-size: 20px;
-    border-radius: 35px;
-    /*background: red;*/
 
-}
-header ul li a{
-    color: inherit;
-    text-decoration: none;
-}
-header ul li.active{
-    background: var(--gra);
-}
-header ul li.active a{
-    color: white;
-    font-weight: bold;
-}
+
+/* sort start */
 .filter-condition{
     padding: 20px;
     height: 100px;
@@ -115,6 +113,10 @@ header ul li.active a{
     background: transparent;
     cursor: pointer;
 }
+
+/* sort end */
+
+/* product start */
 .product-field{
     padding: 40px 20px;
 }
@@ -191,7 +193,7 @@ li h4{
     color: #555;
     text-shadow: 1px 1px 2px black;
 }
-
+/*product end */
 
 
 
@@ -210,13 +212,13 @@ li h4{
   }
 
   
-
-  strong{
+ strong{
     scale: 0.3;
     position: absolute;
     top: 46%;
     right: 40px;
-  }
+    font-size: x-small;
+ }
 
   small{
     scale: 0.3;
@@ -227,6 +229,7 @@ li h4{
   }
 
   h4 {
+    font-size: x-small;
     top: 60%;
     margin-left: -15px;
     scale: 0.3;
