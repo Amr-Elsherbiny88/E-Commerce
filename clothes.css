@@ -269,7 +269,7 @@ li h4{
   small{
     scale: 0.2;
     position: absolute;
-    top: 62%;
+    top: 66%;
     right: 30px;
     
   }
@@ -281,6 +281,8 @@ li h4{
     font-size: 10px;
    
   }
+
+  
 
   
 }
