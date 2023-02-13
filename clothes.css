@@ -221,26 +221,27 @@ li h4{
   .product-field ul li{
     width: 100px;
     height: 150px;
+    margin-left: 40px;
   }
 
   .detail p {
-    scale: 0.5;
+    scale: 0.2;
     margin-left: -29px;
   }
 
   strong{
-    scale: 0.5;
+    scale: 0.2;
    
    
   }
 
   h4 {
-    scale: 0.7;
+    scale: 0.5;
     left: 0;
   }
 
   small{
-    top: 0;
+    
   }
 }
 
