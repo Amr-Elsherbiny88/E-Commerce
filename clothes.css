@@ -6,6 +6,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+/* loading page start */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 0.75s, visibility 0.75s;
+    z-index: 9999;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #000000;
+    border-top-color: #950000;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  /* loading page end */
+
+
+
+
 main{
     width: 98%;
     background: white;
@@ -137,50 +185,44 @@ li h4{
 
 
 @media only screen and (max-width:767px) and (min-width:525px){
+    picture{
+        width: 135px;
+        height: 150px;
+       
+   
+  }
 
-    nav {
-        margin-bottom: 150px;
-    }
-     
-        /* intro start */
-        .intro {
-            height: 800px;
-          }
+  .product-field ul li{
+    width: 135px;
+    height: 150px;
+    
+  }
 
-
-        
-     .intro-img {
-       align-items: center;
-     }
   
-      .intro-img img {
-        
-        width: min-content;
-      }
-   
-   
-    .intro-text {
-        margin-top: -1px;
-    } 
-      /* intro end */
 
-      .about-img {
-        align-items: center;
-      }
-   
-       .about-img img {
-         width: 75%;
-         height: 200px;
-         margin-left: 65px;
-         margin-top: -50px;
-         margin-bottom: 50px;
-       }
-    
-    
-     .about-t {
-         margin-top: -1px;
-     } 
+  strong{
+    scale: 0.3;
+    position: absolute;
+    top: 46%;
+    right: 40px;
+  }
 
+  small{
+    scale: 0.3;
+    position: absolute;
+    top: 58%;
+    right: 55px;
+    
+  }
+
+  h4 {
+    top: 60%;
+    margin-left: -15px;
+    scale: 0.3;
+   
+  }
+
+  
 
 
 }
@@ -230,40 +272,4 @@ li h4{
   
 
 
-
-@media only screen and (max-width:1023px) and (min-width:768){
- 
-    nav {
-        margin-bottom: 150px;
-    }
-     
-         /* intro start */
-   
-     .intro-img img {
-        
-        max-width: 300px;
-       margin: auto;
-     }
-  
-   
-    .intro-text {
-        margin-top: -1px;
-    } 
-/* intro end */
-
-    .about-img{
-        width: 50%;
-    }
-
- 
-    .about-img img {
-         width: 50%;
- 
-
-    }
-
-    .about-t{
-        margin-left: 100px;
-    }
-}
 

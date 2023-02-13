@@ -50,3 +50,50 @@
    
     new SortProduct().run();
 })();
+
+
+
+// loading page start
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+  
+    loader.classList.add("loader--hidden");
+  
+    loader.addEventListener("transitionend", () => {
+      document.body.removeChild(loader);
+    });
+  });
+//   loading page end
+
+// dark mood start
+const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
+const main = document.querySelector('main');
+const span = document.querySelector('main span');
+const mood = document.querySelector('.mood-text');
+toggle.addEventListener('click', function(){
+    this.classList.toggle('bi-moon');
+    if(this.classList.toggle('bi-brightness-high-fill')){
+        body.style.background = 'white';
+        main.style.background = 'white';
+        body.style.color = 'black';
+        span.style.color = 'black';
+       
+        mood.style.color = 'black';
+        toggle .style.color="black"
+        body.style.transition = '2s';
+        main.style.transition = '2s';
+        
+    }else{
+        body.style.background = 'black';
+        main.style.background = 'black';
+        body.style.color = 'black';
+        span.style.color = 'white';
+        mood.style.color = 'white';
+        toggle.style.color="white";
+        body.style.transition = '2s';
+        main.style.transition = '2s';
+    }
+});
+
+// dark mood end
