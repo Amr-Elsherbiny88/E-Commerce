@@ -99,45 +99,21 @@ picture img {
 .detail{
     width: 100%;
     height: 100%;
-}
-.detail .icon{
-    width: 30%;
-    height: 55%;
-    padding: 20px 5px;
-}
-.icon span{
-    background: #00000030;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    padding: 0;
-    border-radius: 50%;
-    margin: 0 0 20px 5px;
-    font-size: 20px;
-    color: white;
-}
-.icon span:hover{
-    background: var(--gra);
-    cursor: pointer;
+    margin-top: 230px;
 }
 .detail > strong{
     display: inherit;
-    margin: 20px;
+    margin-left: 20px;
+    
     font-size: 30px;
     letter-spacing: 2px;
     color: #555;
 }
-.detail > span{
-    display: inherit;
-    padding: 0 20px;
-    width: 80%;
-}
+
 .detail small{
     display: inline-block;
     padding: 8px 20px;
-    margin: 15px;
+    margin-left: 20px;
     font-weight: bold;
     border-radius: 6px;
     border: 1px solid #999;
@@ -150,8 +126,8 @@ picture img {
 }
 li h4{
     position: absolute;
-    right: 10px;
-    top: 50%;
+    left:10% ;
+    top:84%;
     font-size: 30px;
     color: #555;
     text-shadow: 1px 1px 2px black;
@@ -224,25 +200,31 @@ li h4{
     
   }
 
-  .detail p {
-   scale: 0.3;
-    margin-left: -29px;
-  }
+  
 
   strong{
-    scale: 0.2;
-   
-   
-  }
-
-  h4 {
     scale: 0.5;
-    left: 0;
+    position: absolute;
+    top: 46%;
+    right: 30px;
   }
 
   small{
-    
+    scale: 0.5;
+    position: absolute;
+    top: 58%;
+    right: 45px;
+    scale: 0.5;
   }
+
+  h4 {
+    top: 60%;
+    margin-left: -15px;
+    scale: 0.5;
+   
+  }
+
+  
 }
 
   
