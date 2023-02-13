@@ -282,7 +282,9 @@ li h4{
    
   }
 
-  
+  .smalll{
+    margin-left: -10px;
+  }
 
   
 }
