@@ -51,7 +51,17 @@
   }
   /* loading page end */
 
+  .mood-text{
+  
+    text-decoration: underline purple;
+    text-align: center;
+  }
 
+  .clothes-text{
+    color: rgb(0, 0, 0);
+    text-decoration: underline purple;
+    text-align: center;
+  }  
 
 
 main{
@@ -111,6 +121,7 @@ header ul li.active a{
 .product-field ul{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .product-field ul li{
@@ -249,7 +260,6 @@ li h4{
     position: absolute;
     top: 46%;
     right: 30px;
-    font-size: 10px;
   }
 
   small{
@@ -264,7 +274,6 @@ li h4{
     top: 60%;
     margin-left: -15px;
     scale: 0.2;
-    font-size: 10px;
    
   }
 

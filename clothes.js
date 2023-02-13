@@ -69,6 +69,7 @@ window.addEventListener("load", () => {
 const toggle = document.getElementById('toggleDark');
 const body = document.querySelector('body');
 const main = document.querySelector('main');
+const text = document.querySelector('.clothes-text');
 const span = document.querySelector('main span');
 const mood = document.querySelector('.mood-text');
 toggle.addEventListener('click', function(){
@@ -78,7 +79,7 @@ toggle.addEventListener('click', function(){
         main.style.background = 'white';
         body.style.color = 'black';
         span.style.color = 'black';
-       
+        text.style.color = 'black';
         mood.style.color = 'black';
         toggle .style.color="black"
         body.style.transition = '2s';
@@ -89,6 +90,7 @@ toggle.addEventListener('click', function(){
         main.style.background = 'black';
         body.style.color = 'black';
         span.style.color = 'white';
+        text.style.color = 'white';
         mood.style.color = 'white';
         toggle.style.color="white";
         body.style.transition = '2s';
