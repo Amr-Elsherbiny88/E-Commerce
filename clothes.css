@@ -242,7 +242,6 @@ li h4{
 }
 
 
-
 @media only screen and (max-width:525px) and (min-width:0px){
     picture{
         width: 130px;
@@ -270,7 +269,7 @@ li h4{
   small{
     scale: 0.2;
     position: absolute;
-    top: 66%;
+    top: 62%;
     right: 30px;
     
   }
@@ -283,15 +282,6 @@ li h4{
    
   }
 
-  .big{
-    
-    right: 10px;
-  }
-  
-  .smalll{
-    left: 5px;
-  }
- 
   
 }
 
