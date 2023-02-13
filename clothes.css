@@ -263,7 +263,7 @@ li h4{
     scale: 0.2;
     position: absolute;
     top: 56%;
-    
+    margin-left: -5px;
     font-size: 10px;
   }
 
@@ -281,6 +281,10 @@ li h4{
     scale: 0.2;
     font-size: 10px;
    
+  }
+
+  .big{
+    margin-left: -10px;
   }
 
 }
