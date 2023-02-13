@@ -282,6 +282,13 @@ li h4{
    
   }
 
+  .big{
+    left: 20px;
+  }
+  
+  .small{
+    right: 20px;
+  }
   
 }
 
