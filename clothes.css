@@ -244,15 +244,15 @@ li h4{
 
 @media only screen and (max-width:525px) and (min-width:0px){
     picture{
-        width: 120px;
-        height: 150px;
+        width: 130px;
+        height: 200px;
        
    
   }
 
   .product-field ul li{
-    width: 120px;
-    height: 150px;
+    width: 130px;
+    height: 200px;
     
   }
 
