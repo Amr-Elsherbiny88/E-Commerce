@@ -261,22 +261,22 @@ li h4{
   strong{
     scale: 0.2;
     position: absolute;
-    top: 46%;
-    right: 30px;
+    top: 56%;
+    right: 20px;
     font-size: 10px;
   }
 
   small{
     scale: 0.2;
     position: absolute;
-    top: 58%;
-    right: 45px;
+    top: 62%;
+    right: 30px;
     
   }
 
   h4 {
     top: 60%;
-    margin-left: -15px;
+   
     scale: 0.2;
     font-size: 10px;
    
