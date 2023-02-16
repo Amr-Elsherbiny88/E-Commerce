@@ -30,14 +30,14 @@ a{
 {
     width: 95%;
     height: 95%;
-    background: #5800ff24;
+    background: #590862;
     border-radius: 7px;
 }
 
 
 .chat {
     height: 95%;
-    background: #03a9f429;
+    background: hsla(0, 0%, 100%, 0.161);
     overflow: auto;
     font-size: 17px;    
 }
@@ -45,7 +45,7 @@ a{
 .bot_info {
     width: 100%;
     height: 75px;
-    background: #f65a83a3;
+    background: #ffffffa3;
 }
 
 img.bot_img {
@@ -84,9 +84,9 @@ input.input_chat {
     height: 5%;
     width: 99.6%;
     border: none;
-    outline-color: #8F71FF;
-    background: #000000;
-    color: white;
+    outline-color: #b1b0b5;
+    background: #e4e4e4;
+    color: rgb(0, 0, 0);
 }
 
 .msg {
@@ -99,7 +99,7 @@ input.input_chat {
 {
     width: 180px;
     height: fit-content;
-    background: linear-gradient(45deg, #5800ff36, #00bcd445);
+    background: linear-gradient(45deg, #fafafa36, #000000);
     box-shadow: 0 0 1px lightgrey;
     border-radius: 9px;
     display: flex;
@@ -109,5 +109,5 @@ input.input_chat {
 .user_msg
 {
 	float: right;
-	background: linear-gradient(45deg, #00ffab59, #4C4C6D);
+	background: linear-gradient(45deg, #fafafa36, #000000);
 }
