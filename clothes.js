@@ -1,3 +1,4 @@
+// filter start
 (function() {
 		
     let field = document.querySelector('.items');
@@ -51,7 +52,7 @@
     new SortProduct().run();
 })();
 
-
+// filter end
 
 // loading page start
 window.addEventListener("load", () => {

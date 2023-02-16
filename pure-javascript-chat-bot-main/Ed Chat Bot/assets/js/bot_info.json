@@ -1,0 +1,12 @@
+bot = {
+	"name" : "elmas",
+	"age" : 17,
+	"profile" : "assets/src/images/bot.png",
+	"app_title" : "Chat Bot Created By Mas",
+},
+
+
+creator = {
+	"name" : "AmrElsherbiny",
+	"age" : 17,
+}

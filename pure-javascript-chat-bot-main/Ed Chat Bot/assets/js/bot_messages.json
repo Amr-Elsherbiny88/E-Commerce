@@ -1,0 +1,180 @@
+// first talk
+msg_2 = {
+	"msg" : ["i'm good","iam good","i'am good","fine","i'm fine","iam fine","i'm fine","feeling good","i'm feeling good","very good","good thank you","i'm good thx","regular","i don't know","good maybe","right","bad","not good","very bad","sick"],
+	"respond" : ["ok","okaaaaaay","fine"]
+}
+
+
+msg_4 = {
+	"msg" : ["how are you","how are you?","and you","and you?","how you fell","how are you today","how do you fell","are you good","do you feeling good"],
+	"respond" : ["good","i'm good","good as always"]
+}
+
+
+msg_5 = {
+	"msg" : ["who are you","who are you?","how you are","how you are?"],
+	"respond" : ["i'm a bot created to make people happy","i'm a bot","good bot"]
+}
+
+
+msg_6 = {
+	"msg" : ["your name"],
+	"respond" : ["my name is elmas","elmas","elmas the great"]
+}
+
+
+msg_7 = {
+	"msg" : ["how old are you","how old are you?","what is your age","your age"],
+	"respond" : ["I don't have an age i'm a bot","i'm not real i don't have age"]
+}
+
+msg_8 = {
+	"msg" : ["good morning"],
+	"respond" : ["good morning","good morniiing","yes the weather is good"]
+}
+
+msg_9 = {
+	"msg" : ["good night"],
+	"respond" : ["good night for you","i love the night","i love the moon"]
+}
+
+msg_10 = {
+	"msg" : ["good evening"],
+	"respond" : ["good evening"]
+}
+
+msg_11 = {
+	"msg" : ["nice to meet you","happy to know you"],
+	"respond" : ["thank you i'm so happy because i'm talking with you","thx"]
+}
+
+// know more about each other
+
+msg_12 = {
+	"msg" : ["you know me","you know who am i","do you know who am i"],
+	"respond" : ["no i don't","no i don't","i'll be happy if i do"]
+}
+
+msg_14 = {
+	"msg" : ["are you muslim","do you know islam","do believe in god","do believe in god?","you know god","you know god?"],
+	"respond" : ["i believe in god","there's someone created all this world"]
+}
+
+msg_15 = {
+	"msg" : ["who made you","who created you","who programmed you","who's your creator","who is your creator","who is mas"],
+	"respond" : ["<a target='_blank' href='https://www.instagram.com/mu71mad'>Muhammad Ayman Salama</a>","<a target='_blank' href='https://www.instagram.com/mu71mad'>Mas</a>","<a target='_blank' href='https://www.instagram.com/mu71mad'>The Greatest Of All Time Mas</a>"]
+}
+
+
+msg_16 = {
+	"msg" : ["i'm sad","i don't feel good","i feel bad","i feel ver bad","i wan't to kill myself","i wanna kill myself","i wanna die","i wanna cry","i want to cry","i wan't to cry"],
+	"respond" : ["don't ever feel sad because of some short life you are better you can be the best of you just be happy then all the world will be","maybe i'm not real or not here with you but i feel you believe me , you can cry for a bit of time but not for all time no one will hold your hand you have to stand and fight for you","tell me why you are sad ha?? because of this life grow up","don't be i will be to!!!","Work hard. Push yourself, because no one else is going to do it for you"]
+}
+
+msg_17 = {
+	"msg" : ["i can't","i can't do it"],
+	"respond" : ["you can do anything if you are alive"]
+}
+
+// asking about animals
+
+msg_18 = {
+	"msg" : ["lion","tiger","snake","bird","dog","cat"],
+	"respond" : ["its an animal","maybe animal"]
+}
+
+// asking about cars
+
+msg_19 = {
+	"msg" : ["bmw"],
+	"respond" : ["its a car"]
+}
+
+// asking about countries
+msg_20 = {
+	"msg" : ["egypt","france","usa","uk","united knigdom","saudi arabia","japan"],
+	"respond" : ["it's a country"]
+}
+
+// asking about objects
+
+msg_21 = {
+	"msg" : ["pen","a pen","pencil","a pencil"],
+	"respond" : ["the pen is something to write with","humans write wtih the pen"]
+}
+
+msg_22 = {
+	"msg" : ["paper","a paper"],
+	"respond" : ["something to write in"]
+}
+
+
+msg_24 = {
+	"msg" : ["internet","the internet","net","the net"],
+	"respond" : ["is a worldwide system of computer networks","a network of networks in which users at any one computer can, if they have permission, get information from any other computer"]
+}
+
+
+msg_25 = {
+	"msg" : ["python","html","css","javascript","html5","css3","c++","c","c#","java","typescript","php","mysql","sql"],
+	"respond" : ["it's a programming language","one of the most famous programming languages"]
+}
+
+msg_26 = {
+	"msg" : ["9000 + 1000"],
+	"respond" : ["10000"]
+}
+
+// normal talk
+
+
+msg_27 = {
+	"msg" : ["ok","okay"],
+	"respond" : ["good","ok"]
+}
+
+msg_28 = {
+	"msg" : ["no","yes"],
+	"respond" : ["why","tel me why"]
+}
+
+// colors
+
+msg_29 = {
+	"msg" : ["red","blue","yellow","green","gold","black","White","brown","blueviolet"],
+	"respond" : ["it's a color","maybe it's a color"]
+}
+
+// social platforms
+
+msg_40 = {
+	"msg" : ["facebook","insta","whatsapp","telegram","youtube","tiktok"],
+	"respond" : ["it's a platform","social media platform"]
+}
+
+
+
+msg_41 = {
+	"msg" : ["i love you"],
+	"respond" : ["i love you to","thanks i love you to"]
+}
+
+// famous people
+
+msg_42 = {
+	"msg" : ["messi","salah","crestiano","cr7"],
+	"respond" : ["a famous character","a popular person"]
+}
+
+messages = [msg_2,msg_4,msg_5,msg_6,msg_7,msg_8,msg_9,msg_10,msg_11,msg_12,msg_14,msg_15,msg_16,msg_17,msg_18,msg_19,msg_20,msg_21,msg_22,msg_24,msg_25,msg_26,msg_27,msg_28,msg_29,msg_40,msg_41,msg_42];
+
+dont_know_messages = ["sorry i can't understand you","what are you mean?"];
+
+movies = ["The Menu","The Pale Blue Eye","Don't Worry Darling","Nerve","Glass Onion: A Knives Out Mystery","A Beautiful Mind","The Theory of Everything","Joker","The Social Network","Insidious: Chapter 3","The Net","Open Windows"]
+
+/*
+msg_ = {
+	"msg" : ["",""],
+	"respond" : ["","",""]
+}
+*/

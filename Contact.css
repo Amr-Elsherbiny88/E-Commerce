@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+
+
+::-webkit-scrollbar{
+  width: fit-content;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+/* loading page start */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 0.75s, visibility 0.75s;
+    z-index: 9999;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #000000;
+    border-top-color: #950000;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  /* loading page end */
+
+  /* dark mood start */
+  .mood-text{
+  
+    text-decoration: underline purple;
+    text-align: center;
+  }
+  /* dark mood end */
+
+  /* email contact */
+  .title {
+    color: rgb(0, 0, 0);
+  text-decoration: underline purple;
+   margin-bottom: 70px;
+  }
+
+.name {
+    padding: 5px 50px 5px 0;
+    margin-top: 50px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+
+}
+
+.emaill{
+    padding: 30px 50px 30px 0;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.inputss{
+    border: solid;
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.titlee{
+    display: flex;
+}
+
+.titlee .fa-solid{
+    scale: 2;
+    color: purple;
+    
+    margin-left: 20px;
+}
+
+.send {
+    background-color: purple;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    transform: all;
+}
+
+.send:hover{
+    transition: 0.5s;
+    scale: 1.2;
+    color: white;
+    background-color: rgb(97, 52, 139);
+}
+/* email contact end */
+
+/* bot contact start */
+
+.titleee{
+    display: flex;
+    margin-top: 150px;
+}
+
+.titleee .fa-solid{
+    scale: 2;
+    color: purple;
+    margin-left: 20px;
+}
+
+.sendd{
+    margin-left: 45px;
+    background-color: purple;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    transform: all;
+    
+}
+
+.sendd:hover{
+    transition: 0.5s;
+    scale: 1.2;
+    color: white;
+    background-color: rgb(97, 52, 139);
+}

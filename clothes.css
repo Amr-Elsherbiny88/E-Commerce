@@ -5,6 +5,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+   
 }
 
 
@@ -135,7 +137,7 @@ header{
     /*overflow: hidden;*/
     border-radius: 20px;
     padding: 10px;
-    margin: 200px 10px 0 10px;
+    margin: 185px 15px 0 0px;
     position: relative;
 }
 picture{
@@ -252,32 +254,32 @@ li h4{
 
   .product-field ul li{
     width: 130px;
-    height: 350px;
+    height: 300px;
     
   }
 
   
 
   strong{
-    scale: 0.2;
+    scale: 0.7;
     position: absolute;
     top: 56%;
-    right: 20px;
+    right: 42px;
     font-size: 10px;
   }
 
   small{
-    scale: 0.2;
+    scale: 0.8;
     position: absolute;
     top: 66%;
-    right: 30px;
+    right: 45px;
     
   }
 
   h4 {
     top: 62%;
-   
-    scale: 0.2;
+    margin-left: -10px;
+    scale: 0.8;
     font-size: 10px;
    
   }

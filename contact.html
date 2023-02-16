@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- animate.css link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- link Aos animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="bootstrap5\bootstrap.min.css">
+
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("7KiG6IFQzzOsF86qw");
+    })();
+  </script>
+
+    
+
+    <!-- link css -->
+    <link rel="stylesheet" href="Contact.css">
+  </head>
+  <body class="store-item" >
+    
+
+<!-- loading page start -->
+<div class="loader"></div>
+<!-- loading page end -->
+
+<!-- navbar start -->
+<nav id="navb" class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">AmrElsherbiny</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact Us</a>
+        </li>
+       
+        
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+<!-- dark mood start -->
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mood-text text-center mb-4 animate__animated animate__bounceInDown">
+  <h1>Site Mood</h1>
+</div>
+
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 first-deal text-center mb-4 animate__animated animate__bounceInDown">
+  <i class=" dark-ic bi bi-brightness-high-fill" id="toggleDark"></i>
+  
+</div>
+<!-- dark mood end -->
+
+<!-- contact us start -->
+
+<section class="container">
+    <div class="row">
+        <div class="title col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-2" >
+            <div class="titlee">
+                <i class="fa-solid fa-phone-volume"></i>
+                <h1 class="ttle2 mb-5">Contact Us</h1>
+               
+            </div>
+            
+            
+            <div class="inputss">
+                <h4>Send us your questions and suggestions and we will answer you as soon as possible</h4>
+               
+                <input id="name" class="name" type="text" placeholder="please Enter your name" required>
+                <br>
+                <input id="email" class="name" type="email" placeholder="please Enter your Email" required>
+                <br>
+                <textarea id="message" class="emaill" type="text" placeholder="Enter Your Message Here " required></textarea>
+                <br>
+                <button onclick="sendMail()" class="send">Send</button>
+            </div>
+            
+        </div>
+  <!-- contact us end -->
+
+     <!-- boot -->
+        <div class="title col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-5 mb-5" >
+            <div class="titleee ">
+                <i class="fa-solid fa-robot"></i>
+                <h1 class="ttle  mb-5">Talk To Our Boot</h1>
+               
+            </div>
+             <a  href="pure-javascript-chat-bot-main\Ed Chat Bot\index.html"><button class="sendd"> Chat with Me <i class="fa-solid fa-robot"></i></button></a>
+        </div>
+    </div>
+</section>
+
+
+
+
+       <!-- footer start -->
+
+       <!-- Footer -->
+       <footer class="text-center text-lg-start bg-dark text-white">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="https://www.facebook.com/profile.php?id=100085240531782" class="me-4 link-secondary">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="me-4 link-secondary">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/amrelsherbiny20/" class="me-4 link-secondary">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Amr-Elsherbiny88" class="me-4 link-secondary">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class=" fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>AmrElsherbiny
+                </h6>
+                <p>
+                 Best and biggest online store here you can buy and get any thing you want
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="/index.html#clothes" class="text-reset">Clothes</a>
+                </p>
+                <p>
+                  <a href="/index.html#electric" class="text-reset"> Electric devices</a>
+                </p>
+                <p>
+                  <a href="/index.html#loc" class="text-reset">Our Location</a>
+                </p>
+                
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                   Links to help
+                </h6>
+      
+                <p>
+                  <a href="#navb" class="text-reset">Go To Up</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Contact Us</a>
+                </p>
+               
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> Cairo, Badr city, Egy</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i> amouryelsherbiny178@gmail.com</p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> 011 017 617 85</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> 011 017 617 85</p>
+               
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="..">AmrElsherbiny</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      <!-- footer end -->
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- java script -->
+    <script src="Contact.js"></script>
+
+    <!-- Aos j.s link -->
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- bootstrap js -->
+    <script src="bootstrap5\bootstrap.bundle.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
