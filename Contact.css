@@ -134,6 +134,10 @@
     color: white;
     background-color: rgb(97, 52, 139);
 }
+
+.error {
+  color: red;
+}
 /* email contact end */
 
 /* bot contact start */
