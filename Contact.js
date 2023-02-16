@@ -58,7 +58,7 @@ toggle.addEventListener('click', function(){
 
 function sendMail() {
     var params = {
-      name: document.getElementById("name").value,
+      from_name: document.getElementById("name").value,
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
     };
